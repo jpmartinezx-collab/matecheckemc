@@ -1,20 +1,12 @@
-matecheck-xadrez-programavel-c/
-│
-├── README.md
-│
-├── docs/
-│   └── Apostila_MateCheck_Xadrez_C.pdf
-│
-├── modulo_novato/
-│   ├── torre.c
-│   ├── bispo.c
-│   └── rainha.c
-│
-├── modulo_aventureiro/
-│   └── cavalo.c
-│
-├── modulo_mestre/
-│   ├── torre_recursiva.c
-│   └── rainha_loops_avancados.c
-│
-└── main.c
+- Projeto desenvolvido para a empresa MateCheck -
+Autor: Juan Pablo Martinez
+
+O Projeto foi criado para ensino de **Estruturas de Repetição** e **Recursividade** na linguagem C, utilizando as peças de Xadrez como base lógica.
+
+Objetivo
+Simular os movimentos das peças de xadrez por meio de código, permitindo que o aluno se familiarize na programação prática.
+
+Estrutura do projeto
+O projeto é dividido em três módulos de dificuldade progressiva:
+
+
