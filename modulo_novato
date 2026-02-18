@@ -1,1 +1,59 @@
+#include <stdio.h>
 
+int main () { 
+
+int linha = 4;
+int coluna = 4;
+
+printf(" Posição inicial do bispo:(%d, %d)\n\n", linha, coluna);
+
+    // Diagonal superior direita
+    printf("Diagonal superior direita:\n");
+
+int l = linha;
+  int c = coluna;
+
+    while (l < 8 && c < 8) {
+        l++;
+        c++;
+        printf("(%d, %d)\n", l, c);
+    }
+
+    // Diagonal superior esquerda
+    printf("\nDiagonal superior esquerda:\n");
+
+    l = linha;
+    c = coluna;
+
+    while (l < 8 && c > 1) {
+        l++;
+        c--;
+        printf("(%d, %d)\n", l, c);
+    }
+
+    // Diagonal inferior direita
+    printf("\nDiagonal inferior direita:\n");
+
+    l = linha;
+    c = coluna;
+
+    while (l > 1 && c < 8) {
+        l--;
+        c++;
+        printf("(%d, %d)\n", l, c);
+    }
+
+    // Diagonal inferior esquerda
+    printf("\nDiagonal inferior esquerda:\n");
+
+    l = linha;
+    c = coluna;
+
+    while (l > 1 && c > 1) {
+        l--;
+        c--;
+        printf("(%d, %d)\n", l, c);
+    }
+
+    return 0;
+}
