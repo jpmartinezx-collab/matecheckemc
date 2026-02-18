@@ -11,7 +11,7 @@ printf(" Posição inicial do bispo:(%d, %d)\n\n", linha, coluna);
     printf("Diagonal superior direita:\n");
 
 int l = linha;
-  int c = coluna;
+int c = coluna;
 
     while (l < 8 && c < 8) {
         l++;
